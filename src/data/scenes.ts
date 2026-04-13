@@ -5,7 +5,7 @@ export const ROLE_COLORS: Record<string, { bg: string; text: string; label: stri
   doing:     { bg: '#FFF59D', text: '#3a3000', label: 'What doing' },
   what:      { bg: '#C5E1A5', text: '#1a3300', label: 'What' },
   where:     { bg: '#90CAF9', text: '#0a2040', label: 'Where' },
-  adjective: { bg: '#CE93D8', text: '#2a003a', label: 'Describing' },
+  adjective: { bg: '#CE93D8', text: '#2a003a', label: 'Describe' },
 };
 
 export const scenes: Scene[] = [
