@@ -1,10 +1,10 @@
 import type { Scene } from '../types';
 
 export const ROLE_COLORS: Record<string, { bg: string; text: string; label: string }> = {
-  who:   { bg: '#E65100', text: '#ffffff', label: 'Who' },
-  doing: { bg: '#FFD700', text: '#1a1a1a', label: 'What doing' },
-  what:  { bg: '#1B5E20', text: '#ffffff', label: 'What' },
-  where: { bg: '#0D47A1', text: '#ffffff', label: 'Where' },
+  who:   { bg: '#FFCC80', text: '#4a2800', label: 'Who' },
+  doing: { bg: '#FFF59D', text: '#3a3000', label: 'What doing' },
+  what:  { bg: '#C5E1A5', text: '#1a3300', label: 'What' },
+  where: { bg: '#90CAF9', text: '#0a2040', label: 'Where' },
 };
 
 export const scenes: Scene[] = [
