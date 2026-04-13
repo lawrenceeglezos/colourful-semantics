@@ -1,4 +1,4 @@
-export type Role = 'who' | 'doing' | 'what' | 'where';
+export type Role = 'who' | 'doing' | 'what' | 'where' | 'adjective';
 
 export interface Word {
   id: string;
