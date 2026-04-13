@@ -16,7 +16,7 @@ function Slot({ index, role, word }: SlotProps) {
     <div
       ref={setNodeRef}
       style={{
-        minWidth: '96px',
+        minWidth: '130px',
         height: '68px',
         backgroundColor: word ? bg : `${bg}30`,
         border: `3px solid ${bg}`,
