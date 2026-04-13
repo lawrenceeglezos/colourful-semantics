@@ -16,8 +16,8 @@ export const scenes: Scene[] = [
     words: [
       { id: 's1-0', text: 'The cat',      role: 'who',       correctIndex: 0 },
       { id: 's1-1', text: 'chases',       role: 'doing',     correctIndex: 1 },
-      { id: 's1-2', text: 'tiny',         role: 'adjective', correctIndex: 2 },
-      { id: 's1-3', text: 'a mouse',      role: 'what',      correctIndex: 3 },
+      { id: 's1-2', text: 'a tiny',        role: 'adjective', correctIndex: 2 },
+      { id: 's1-3', text: 'mouse',         role: 'what',      correctIndex: 3 },
       { id: 's1-4', text: 'in the garden', role: 'where',    correctIndex: 4 },
     ],
   },
@@ -28,8 +28,8 @@ export const scenes: Scene[] = [
     words: [
       { id: 's2-0', text: 'The dog',    role: 'who',       correctIndex: 0 },
       { id: 's2-1', text: 'fetches',    role: 'doing',     correctIndex: 1 },
-      { id: 's2-2', text: 'red',        role: 'adjective', correctIndex: 2 },
-      { id: 's2-3', text: 'a ball',     role: 'what',      correctIndex: 3 },
+      { id: 's2-2', text: 'a red',       role: 'adjective', correctIndex: 2 },
+      { id: 's2-3', text: 'ball',        role: 'what',      correctIndex: 3 },
       { id: 's2-4', text: 'at the park', role: 'where',    correctIndex: 4 },
     ],
   },
@@ -40,8 +40,8 @@ export const scenes: Scene[] = [
     words: [
       { id: 's3-0', text: 'The girl',    role: 'who',       correctIndex: 0 },
       { id: 's3-1', text: 'eats',        role: 'doing',     correctIndex: 1 },
-      { id: 's3-2', text: 'big',         role: 'adjective', correctIndex: 2 },
-      { id: 's3-3', text: 'an apple',    role: 'what',      correctIndex: 3 },
+      { id: 's3-2', text: 'a big',        role: 'adjective', correctIndex: 2 },
+      { id: 's3-3', text: 'apple',        role: 'what',      correctIndex: 3 },
       { id: 's3-4', text: 'at the table', role: 'where',    correctIndex: 4 },
     ],
   },
