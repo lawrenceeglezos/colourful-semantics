@@ -1,6 +1,7 @@
 import { useDroppable } from '@dnd-kit/core';
 import type { Scene, Word } from '../types';
 import { ROLE_COLORS } from '../data/scenes';
+import { WordBox } from './WordBox';
 
 interface SlotProps {
   index: number;
@@ -17,26 +18,33 @@ function Slot({ index, role, word }: SlotProps) {
       ref={setNodeRef}
       style={{
         minWidth: '130px',
-        height: '68px',
-        backgroundColor: word ? bg : `${bg}30`,
+        minHeight: '68px',
+        backgroundColor: word ? 'transparent' : `${bg}30`,
         border: `3px solid ${bg}`,
         borderRadius: '14px',
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        fontSize: word ? '1.4rem' : '0.75rem',
-        fontWeight: word ? 800 : 700,
-        color: text,
         outline: isOver ? '3px solid white' : 'none',
         outlineOffset: '3px',
         boxShadow: isOver ? `0 0 0 6px ${bg}55` : 'none',
         transition: 'box-shadow 0.15s, background-color 0.15s',
-        padding: '0 12px',
-        letterSpacing: word ? '0.01em' : '0.04em',
-        textTransform: word ? 'none' : 'uppercase',
+        padding: word ? '4px' : '0 12px',
       }}
     >
-      {word ? word.text : label}
+      {word ? (
+        <WordBox word={word} />
+      ) : (
+        <span style={{
+          fontSize: '0.75rem',
+          fontWeight: 700,
+          color: text,
+          textTransform: 'uppercase',
+          letterSpacing: '0.04em',
+        }}>
+          {label}
+        </span>
+      )}
     </div>
   );
 }
