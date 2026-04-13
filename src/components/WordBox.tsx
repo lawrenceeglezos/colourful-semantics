@@ -1,7 +1,7 @@
-import { CSSProperties } from 'react';
+import type { CSSProperties } from 'react';
 import { useDraggable } from '@dnd-kit/core';
 import { CSS } from '@dnd-kit/utilities';
-import { Word } from '../types';
+import type { Word } from '../types';
 import { ROLE_COLORS } from '../data/scenes';
 
 function boxStyle(word: Word, extra?: CSSProperties): CSSProperties {

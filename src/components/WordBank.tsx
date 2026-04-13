@@ -1,5 +1,5 @@
 import { useDroppable } from '@dnd-kit/core';
-import { Word } from '../types';
+import type { Word } from '../types';
 import { WordBox } from './WordBox';
 
 interface Props {

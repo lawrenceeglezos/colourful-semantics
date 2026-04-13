@@ -1,16 +1,15 @@
 import { useState, useEffect, useCallback } from 'react';
 import {
   DndContext,
-  DragEndEvent,
-  DragStartEvent,
   DragOverlay,
   PointerSensor,
   TouchSensor,
   useSensor,
   useSensors,
 } from '@dnd-kit/core';
+import type { DragEndEvent, DragStartEvent } from '@dnd-kit/core';
 import { scenes } from './data/scenes';
-import { Word } from './types';
+import type { Word } from './types';
 import { SentenceStrip } from './components/SentenceStrip';
 import { WordBank } from './components/WordBank';
 import { Feedback } from './components/Feedback';

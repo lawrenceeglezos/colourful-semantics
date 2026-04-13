@@ -1,5 +1,5 @@
 import { useDroppable } from '@dnd-kit/core';
-import { Scene, Word } from '../types';
+import type { Scene, Word } from '../types';
 import { ROLE_COLORS } from '../data/scenes';
 
 interface SlotProps {

@@ -1,4 +1,4 @@
-import { Scene } from '../types';
+import type { Scene } from '../types';
 
 export const ROLE_COLORS: Record<string, { bg: string; text: string; label: string }> = {
   who:   { bg: '#FFD700', text: '#1a1a1a', label: 'Who' },
